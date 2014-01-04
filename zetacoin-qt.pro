@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = zetacoin-qt
-macx:TARGET = "Zetacoin-Qt"
+TARGET = clonecoin-qt
+macx:TARGET = "Clonecoin-Qt"
 VERSION = 0.8.2
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
@@ -315,7 +315,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = zetacoin-qt_test
+TARGET = clonecoin-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
 }

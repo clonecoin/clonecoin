@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Zetacoin</source>
-        <translation>در مورد Zetacoin</translation>
+        <source>About Clonecoin</source>
+        <translation>در مورد Clonecoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Zetacoin&lt;/b&gt; version</source>
-        <translation>نسخه Zetacoin</translation>
+        <source>&lt;b&gt;Clonecoin&lt;/b&gt; version</source>
+        <translation>نسخه Clonecoin</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Zetacoin developers</source>
+        <source>The Clonecoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Zetacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>این آدرسها، آدرسهای zetacoin شما برای دریافت وجوه هستند. شما ممکن است آدرسهای متفاوت را به هر گیرنده اختصاص دهید که بتوانید مواردی که پرداخت می کنید را پیگیری نمایید</translation>
+        <source>These are your Clonecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>این آدرسها، آدرسهای clonecoin شما برای دریافت وجوه هستند. شما ممکن است آدرسهای متفاوت را به هر گیرنده اختصاص دهید که بتوانید مواردی که پرداخت می کنید را پیگیری نمایید</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Zetacoin address</source>
-        <translation>پیام را برای اثبات آدرس Zetacoin خود امضا کنید</translation>
+        <source>Sign a message to prove you own a Clonecoin address</source>
+        <translation>پیام را برای اثبات آدرس Clonecoin خود امضا کنید</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -102,8 +102,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Zetacoin address</source>
-        <translation>یک پیام را برای حصول اطمینان از ورود به سیستم با آدرس zetacoin مشخص، شناسایی کنید</translation>
+        <source>Verify a message to ensure it was signed with a specified Clonecoin address</source>
+        <translation>یک پیام را برای حصول اطمینان از ورود به سیستم با آدرس clonecoin مشخص، شناسایی کنید</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Zetacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Clonecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -244,8 +244,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZETACOINS&lt;/b&gt;!</source>
-        <translation>هشدار: اگر wallet رمزگذاری شود و شما passphrase را گم کنید شما همه اطلاعات zetacoin را از دست خواهید داد.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CLONECOINS&lt;/b&gt;!</source>
+        <translation>هشدار: اگر wallet رمزگذاری شود و شما passphrase را گم کنید شما همه اطلاعات clonecoin را از دست خواهید داد.</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -271,7 +271,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>Zetacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your zetacoins from being stolen by malware infecting your computer.</source>
+        <source>Clonecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your clonecoins from being stolen by malware infecting your computer.</source>
         <translation>Biticon هم اکنون بسته می‌شود تا فرایند رمزگذاری را تمام کند. به خاطر داشته باشید که رمزگذاری کیف پولتان نمی‌تواند به طور کامل بیتیکون‌های شما را در برابر دزدیده شدن توسط بدافزارهایی که رایانه شما را آلوده می‌کنند، محافظت نماید.</translation>
     </message>
     <message>
@@ -370,7 +370,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Zetacoin</source>
+        <source>Show information about Clonecoin</source>
         <translation>نمایش اطلاعات در مورد بیتکویین</translation>
     </message>
     <message>
@@ -415,13 +415,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Zetacoin address</source>
+        <source>Send coins to a Clonecoin address</source>
         <translation>سکه ها را به آدرس bitocin ارسال کن</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Zetacoin</source>
-        <translation>انتخابهای پیکربندی را برای zetacoin اصلاح کن</translation>
+        <source>Modify configuration options for Clonecoin</source>
+        <translation>انتخابهای پیکربندی را برای clonecoin اصلاح کن</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -451,7 +451,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Zetacoin</source>
+        <source>Clonecoin</source>
         <translation>یت کویین </translation>
     </message>
     <message>
@@ -476,8 +476,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Zetacoin</source>
-        <translation>در مورد zetacoin</translation>
+        <source>&amp;About Clonecoin</source>
+        <translation>در مورد clonecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -496,12 +496,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Zetacoin addresses to prove you own them</source>
+        <source>Sign messages with your Clonecoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Zetacoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Clonecoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -532,12 +532,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>Zetacoin client</source>
-        <translation>مشتری Zetacoin</translation>
+        <source>Clonecoin client</source>
+        <translation>مشتری Clonecoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Zetacoin network</source>
+        <source>%n active connection(s) to Clonecoin network</source>
         <translation><numerusform>در صد ارتباطات فعال بیتکویین با شبکه %n</numerusform></translation>
     </message>
     <message>
@@ -651,8 +651,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Zetacoin address or malformed URI parameters.</source>
-        <translation>URI قابل تحلیل نیست. این خطا ممکن است به دلیل ادرس ZETACOIN اشتباه یا پارامترهای اشتباه URI رخ داده باشد</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Clonecoin address or malformed URI parameters.</source>
+        <translation>URI قابل تحلیل نیست. این خطا ممکن است به دلیل ادرس CLONECOIN اشتباه یا پارامترهای اشتباه URI رخ داده باشد</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -666,8 +666,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Zetacoin can no longer continue safely and will quit.</source>
-        <translation>خطا روی داده است. Zetacoin نمی تواند بدون مشکل ادامه دهد و باید بسته شود</translation>
+        <source>A fatal error occurred. Clonecoin can no longer continue safely and will quit.</source>
+        <translation>خطا روی داده است. Clonecoin نمی تواند بدون مشکل ادامه دهد و باید بسته شود</translation>
     </message>
 </context>
 <context>
@@ -732,8 +732,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Zetacoin address.</source>
-        <translation>آدرس وارد شده %1 یک ادرس صحیح zetacoin نیست</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Clonecoin address.</source>
+        <translation>آدرس وارد شده %1 یک ادرس صحیح clonecoin نیست</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -751,8 +751,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Zetacoin-Qt</source>
-        <translation>Zetacoin-Qt</translation>
+        <source>Clonecoin-Qt</source>
+        <translation>Clonecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -814,13 +814,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Zetacoin after logging in to the system.</source>
-        <translation>در زمان ورود به سیستم به صورت خودکار zetacoin را اجرا کن</translation>
+        <source>Automatically start Clonecoin after logging in to the system.</source>
+        <translation>در زمان ورود به سیستم به صورت خودکار clonecoin را اجرا کن</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Zetacoin on system login</source>
-        <translation>اجرای zetacoin در زمان ورود به سیستم</translation>
+        <source>&amp;Start Clonecoin on system login</source>
+        <translation>اجرای clonecoin در زمان ورود به سیستم</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -839,7 +839,7 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Zetacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Clonecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>اتوماتیک باز کردن بندر بیتکویین در روتر . این فقط در مواردی می باشد که روتر با کمک یو پ ن پ کار می کند</translation>
     </message>
     <message>
@@ -849,8 +849,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Zetacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>اتصال به شبکه ZETACOIN از طریق پراکسی ساکس (برای مثال وقتی از طریق نرم افزار TOR متصل می شوید)</translation>
+        <source>Connect to the Clonecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>اتصال به شبکه CLONECOIN از طریق پراکسی ساکس (برای مثال وقتی از طریق نرم افزار TOR متصل می شوید)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -924,8 +924,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Zetacoin.</source>
-        <translation>زبان میانجی کاربر می تواند در اینجا تنظیم شود. این تنظیمات بعد از شروع دوباره RESTART در ZETACOIN اجرایی خواهند بود.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Clonecoin.</source>
+        <translation>زبان میانجی کاربر می تواند در اینجا تنظیم شود. این تنظیمات بعد از شروع دوباره RESTART در CLONECOIN اجرایی خواهند بود.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -939,7 +939,7 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Zetacoin addresses in the transaction list or not.</source>
+        <source>Whether to show Clonecoin addresses in the transaction list or not.</source>
         <translation>تا آدرسهای bITCOIN در فهرست تراکنش نمایش داده شوند یا نشوند.</translation>
     </message>
     <message>
@@ -991,8 +991,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Zetacoin.</source>
-        <translation>این تنظیمات پس از اجرای دوباره Zetacoin اعمال می شوند</translation>
+        <source>This setting will take effect after restarting Clonecoin.</source>
+        <translation>این تنظیمات پس از اجرای دوباره Clonecoin اعمال می شوند</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1010,8 +1010,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Zetacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش داده شده روزآمد نیستند.wallet  شما به صورت خودکار با شبکه zetacoin بعد از برقراری اتصال روزآمد می شود اما این فرایند هنوز کامل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Clonecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش داده شده روزآمد نیستند.wallet  شما به صورت خودکار با شبکه clonecoin بعد از برقراری اتصال روزآمد می شود اما این فرایند هنوز کامل نشده است.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1064,7 +1064,7 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start zetacoin: click-to-pay handler</source>
+        <source>Cannot start clonecoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1214,8 +1214,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Zetacoin-Qt help message to get a list with possible Zetacoin command-line options.</source>
-        <translation>پیام راهنمای Zetacoin-Qt  را برای گرفتن فهرست گزینه های command-line نشان بده</translation>
+        <source>Show the Clonecoin-Qt help message to get a list with possible Clonecoin command-line options.</source>
+        <translation>پیام راهنمای Clonecoin-Qt  را برای گرفتن فهرست گزینه های command-line نشان بده</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1234,13 +1234,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Zetacoin - Debug window</source>
-        <translation>صفحه اشکال زدایی Zetacoin </translation>
+        <source>Clonecoin - Debug window</source>
+        <translation>صفحه اشکال زدایی Clonecoin </translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Zetacoin Core</source>
-        <translation> هسته Zetacoin </translation>
+        <source>Clonecoin Core</source>
+        <translation> هسته Clonecoin </translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1249,8 +1249,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Zetacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>فایلِ لاگِ اشکال زدایی Zetacoin  را از دایرکتوری جاری داده ها باز کنید. این عملیات ممکن است برای فایلهای لاگِ حجیم طولانی شود.</translation>
+        <source>Open the Clonecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>فایلِ لاگِ اشکال زدایی Clonecoin  را از دایرکتوری جاری داده ها باز کنید. این عملیات ممکن است برای فایلهای لاگِ حجیم طولانی شود.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1259,8 +1259,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Zetacoin RPC console.</source>
-        <translation>به کنسول Zetacoin RPC خوش آمدید</translation>
+        <source>Welcome to the Clonecoin RPC console.</source>
+        <translation>به کنسول Clonecoin RPC خوش آمدید</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1443,7 +1443,7 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Zetacoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Clonecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
@@ -1508,8 +1508,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Zetacoin address</source>
-        <translation>پیام را برای اثبات آدرس ZETACOIN خود امضا کنید</translation>
+        <source>Sign the message to prove you own this Clonecoin address</source>
+        <translation>پیام را برای اثبات آدرس CLONECOIN خود امضا کنید</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1544,8 +1544,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Zetacoin address</source>
-        <translation>پیام را برای اطمنان از ورود به سیستم با آدرس ZETACOIN مشخص خود،تایید کنید</translation>
+        <source>Verify the message to ensure it was signed with the specified Clonecoin address</source>
+        <translation>پیام را برای اطمنان از ورود به سیستم با آدرس CLONECOIN مشخص خود،تایید کنید</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1560,7 +1560,7 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Zetacoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <source>Enter a Clonecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
         <translation>آدرس بیتکویین وارد کنید  (bijvoorbeeld: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
@@ -1570,7 +1570,7 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Zetacoin signature</source>
+        <source>Enter Clonecoin signature</source>
         <translation>امضای BITOCOIN خود را وارد کنید</translation>
     </message>
     <message>
@@ -1644,7 +1644,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The Zetacoin developers</source>
+        <source>The Clonecoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2185,7 +2185,7 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Zetacoin version</source>
+        <source>Clonecoin version</source>
         <translation>سخه بیتکویین</translation>
     </message>
     <message>
@@ -2195,7 +2195,7 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or zetacoind</source>
+        <source>Send command to -server or clonecoind</source>
         <translation>ارسال فرمان به سرور یا باتکویین</translation>
     </message>
     <message>
@@ -2215,13 +2215,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: zetacoin.conf)</source>
-        <translation>(: zetacoin.confپیش فرض: )فایل تنظیمی خاص </translation>
+        <source>Specify configuration file (default: clonecoin.conf)</source>
+        <translation>(: clonecoin.confپیش فرض: )فایل تنظیمی خاص </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: zetacoind.pid)</source>
-        <translation>(zetacoind.pidپیش فرض : ) فایل پید خاص</translation>
+        <source>Specify pid file (default: clonecoind.pid)</source>
+        <translation>(clonecoind.pidپیش فرض : ) فایل پید خاص</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2235,8 +2235,8 @@ Address: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>برای اتصالات به &lt;port&gt; (پیش‌فرض: 8333 یا تست‌نت: 18333) گوش کنید</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 7921 or testnet: 17921)</source>
+        <translation>برای اتصالات به &lt;port&gt; (پیش‌فرض: 7921 یا تست‌نت: 17921) گوش کنید</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2270,8 +2270,8 @@ Address: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>( 8332پیش فرض :) &amp;lt;poort&amp;gt; JSON-RPC شنوایی برای ارتباطات</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 7920 or testnet: 17920)</source>
+        <translation>( 7920پیش فرض :) &amp;lt;poort&amp;gt; JSON-RPC شنوایی برای ارتباطات</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2298,13 +2298,13 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=zetacoinrpc
+rpcuser=clonecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Clonecoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2320,7 +2320,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Zetacoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Clonecoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2365,8 +2365,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Zetacoin will not work properly.</source>
-        <translation>هشدار: لطفا زمان و تاریخ رایانه خود را تصحیح نمایید! اگر ساعت رایانه شما اشتباه باشد zetacoin ممکن است صحیح کار نکند</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Clonecoin will not work properly.</source>
+        <translation>هشدار: لطفا زمان و تاریخ رایانه خود را تصحیح نمایید! اگر ساعت رایانه شما اشتباه باشد clonecoin ممکن است صحیح کار نکند</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2615,8 +2615,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Zetacoin Wiki for SSL setup instructions)</source>
-        <translation>گزینه ssl (به ویکیzetacoin برای راهنمای راه اندازی ssl مراجعه شود)</translation>
+        <source>SSL options: (see the Clonecoin Wiki for SSL setup instructions)</source>
+        <translation>گزینه ssl (به ویکیclonecoin برای راهنمای راه اندازی ssl مراجعه شود)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2805,12 +2805,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Zetacoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Clonecoin</source>
         <translation>خطا در بارگیری wallet.dat: کیف پول به ویرایش جدیدتری از Biticon نیاز دارد</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Zetacoin to complete</source>
+        <source>Wallet needed to be rewritten: restart Clonecoin to complete</source>
         <translation>سلام</translation>
     </message>
     <message>
@@ -2870,8 +2870,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Zetacoin is probably already running.</source>
-        <translation>اتصال به %s از این رایانه امکان پذیر نیست. Zetacoin احتمالا در حال اجراست.</translation>
+        <source>Unable to bind to %s on this computer. Clonecoin is probably already running.</source>
+        <translation>اتصال به %s از این رایانه امکان پذیر نیست. Clonecoin احتمالا در حال اجراست.</translation>
     </message>
     <message>
         <location line="+64"/>

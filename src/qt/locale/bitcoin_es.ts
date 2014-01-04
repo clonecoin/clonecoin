@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Zetacoin</source>
-        <translation>Acerca de Zetacoin</translation>
+        <source>About Clonecoin</source>
+        <translation>Acerca de Clonecoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Zetacoin&lt;/b&gt; version</source>
-        <translation>Versión de &lt;b&gt;Zetacoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Clonecoin&lt;/b&gt; version</source>
+        <translation>Versión de &lt;b&gt;Clonecoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -37,8 +37,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+0"/>
-        <source>The Zetacoin developers</source>
-        <translation>Los programadores Zetacoin</translation>
+        <source>The Clonecoin developers</source>
+        <translation>Los programadores Clonecoin</translation>
     </message>
 </context>
 <context>
@@ -70,8 +70,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Zetacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son sus direcciones Zetacoin para recibir pagos. Puede utilizar una diferente por cada persona emisora para saber quién le está pagando.</translation>
+        <source>These are your Clonecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son sus direcciones Clonecoin para recibir pagos. Puede utilizar una diferente por cada persona emisora para saber quién le está pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -85,8 +85,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Zetacoin address</source>
-        <translation>Firmar un mensaje para demostrar que se posee una dirección Zetacoin</translation>
+        <source>Sign a message to prove you own a Clonecoin address</source>
+        <translation>Firmar un mensaje para demostrar que se posee una dirección Clonecoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -110,8 +110,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Zetacoin address</source>
-        <translation>Verificar un mensaje para comprobar que fue firmado con la dirección Zetacoin indicada</translation>
+        <source>Verify a message to ensure it was signed with a specified Clonecoin address</source>
+        <translation>Verificar un mensaje para comprobar que fue firmado con la dirección Clonecoin indicada</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -125,8 +125,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Zetacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones Zetacoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de transferir monedas.</translation>
+        <source>These are your Clonecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones Clonecoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de transferir monedas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -251,8 +251,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ZETACOINS&lt;/b&gt;!</source>
-        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS ZETACOINS&lt;/b&gt;!&quot;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CLONECOINS&lt;/b&gt;!</source>
+        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS CLONECOINS&lt;/b&gt;!&quot;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -278,8 +278,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-56"/>
-        <source>Zetacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your zetacoins from being stolen by malware infecting your computer.</source>
-        <translation>Zetacoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus zetacoins de robo por malware que infecte su sistema.</translation>
+        <source>Clonecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your clonecoins from being stolen by malware infecting your computer.</source>
+        <translation>Clonecoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus clonecoins de robo por malware que infecte su sistema.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Zetacoin</source>
-        <translation>Mostrar información acerca de Zetacoin</translation>
+        <source>Show information about Clonecoin</source>
+        <translation>Mostrar información acerca de Clonecoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -422,13 +422,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Zetacoin address</source>
-        <translation>Enviar monedas a una dirección Zetacoin</translation>
+        <source>Send coins to a Clonecoin address</source>
+        <translation>Enviar monedas a una dirección Clonecoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Zetacoin</source>
-        <translation>Modificar las opciones de configuración de Zetacoin</translation>
+        <source>Modify configuration options for Clonecoin</source>
+        <translation>Modificar las opciones de configuración de Clonecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -458,8 +458,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Zetacoin</source>
-        <translation>Zetacoin</translation>
+        <source>Clonecoin</source>
+        <translation>Clonecoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -483,8 +483,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Zetacoin</source>
-        <translation>&amp;Acerca de Zetacoin</translation>
+        <source>&amp;About Clonecoin</source>
+        <translation>&amp;Acerca de Clonecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -503,13 +503,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Zetacoin addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Zetacoin para demostrar la propiedad</translation>
+        <source>Sign messages with your Clonecoin addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Clonecoin para demostrar la propiedad</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Zetacoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Zetacoin concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Clonecoin addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Clonecoin concretas</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -539,13 +539,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+47"/>
-        <source>Zetacoin client</source>
-        <translation>Cliente Zetacoin</translation>
+        <source>Clonecoin client</source>
+        <translation>Cliente Clonecoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Zetacoin network</source>
-        <translation><numerusform>%n conexión activa hacia la red Zetacoin</numerusform><numerusform>%n conexiones activas hacia la red Zetacoin</numerusform></translation>
+        <source>%n active connection(s) to Clonecoin network</source>
+        <translation><numerusform>%n conexión activa hacia la red Clonecoin</numerusform><numerusform>%n conexiones activas hacia la red Clonecoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -659,8 +659,8 @@ Dirección: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Zetacoin address or malformed URI parameters.</source>
-        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Zetacoin inválida o a parámetros de URI mal formados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Clonecoin address or malformed URI parameters.</source>
+        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Clonecoin inválida o a parámetros de URI mal formados.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -674,8 +674,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Zetacoin can no longer continue safely and will quit.</source>
-        <translation>Ha ocurrido un error crítico. Zetacoin ya no puede continuar con seguridad y se cerrará.</translation>
+        <source>A fatal error occurred. Clonecoin can no longer continue safely and will quit.</source>
+        <translation>Ha ocurrido un error crítico. Clonecoin ya no puede continuar con seguridad y se cerrará.</translation>
     </message>
 </context>
 <context>
@@ -740,8 +740,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Zetacoin address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección Zetacoin válida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Clonecoin address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección Clonecoin válida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -759,8 +759,8 @@ Dirección: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Zetacoin-Qt</source>
-        <translation>Zetacoin-Qt</translation>
+        <source>Clonecoin-Qt</source>
+        <translation>Clonecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -822,13 +822,13 @@ Dirección: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Zetacoin after logging in to the system.</source>
-        <translation>Iniciar Zetacoin automáticamente al encender el sistema.</translation>
+        <source>Automatically start Clonecoin after logging in to the system.</source>
+        <translation>Iniciar Clonecoin automáticamente al encender el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Zetacoin on system login</source>
-        <translation>&amp;Iniciar Zetacoin al iniciar el sistema</translation>
+        <source>&amp;Start Clonecoin on system login</source>
+        <translation>&amp;Iniciar Clonecoin al iniciar el sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -847,8 +847,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Zetacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Zetacoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Clonecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Clonecoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -857,8 +857,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Zetacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectar a la red Zetacoin a través de un proxy SOCKS (ej. para conectar con la red Tor)</translation>
+        <source>Connect to the Clonecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conectar a la red Clonecoin a través de un proxy SOCKS (ej. para conectar con la red Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -932,8 +932,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Zetacoin.</source>
-        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie Zetacoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Clonecoin.</source>
+        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie Clonecoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -947,8 +947,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Zetacoin addresses in the transaction list or not.</source>
-        <translation>Mostrar o no las direcciones Zetacoin en la lista de transacciones.</translation>
+        <source>Whether to show Clonecoin addresses in the transaction list or not.</source>
+        <translation>Mostrar o no las direcciones Clonecoin en la lista de transacciones.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -999,8 +999,8 @@ Dirección: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Zetacoin.</source>
-        <translation>Esta configuración tendrá efecto tras reiniciar Zetacoin.</translation>
+        <source>This setting will take effect after restarting Clonecoin.</source>
+        <translation>Esta configuración tendrá efecto tras reiniciar Clonecoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1018,8 +1018,8 @@ Dirección: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Zetacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Zetacoin después de que se haya establecido una conexión , pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Clonecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Clonecoin después de que se haya establecido una conexión , pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1072,8 +1072,8 @@ Dirección: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start zetacoin: click-to-pay handler</source>
-        <translation>No se pudo iniciar zetacoin: manejador de pago-al-clic</translation>
+        <source>Cannot start clonecoin: click-to-pay handler</source>
+        <translation>No se pudo iniciar clonecoin: manejador de pago-al-clic</translation>
     </message>
 </context>
 <context>
@@ -1222,8 +1222,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Zetacoin-Qt help message to get a list with possible Zetacoin command-line options.</source>
-        <translation>Mostrar el mensaje de ayuda de Zetacoin-Qt que enumera las opciones disponibles de línea de órdenes para Zetacoin.</translation>
+        <source>Show the Clonecoin-Qt help message to get a list with possible Clonecoin command-line options.</source>
+        <translation>Mostrar el mensaje de ayuda de Clonecoin-Qt que enumera las opciones disponibles de línea de órdenes para Clonecoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1242,13 +1242,13 @@ Dirección: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Zetacoin - Debug window</source>
-        <translation>Zetacoin - Ventana de depuración</translation>
+        <source>Clonecoin - Debug window</source>
+        <translation>Clonecoin - Ventana de depuración</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Zetacoin Core</source>
-        <translation>Núcleo de Zetacoin</translation>
+        <source>Clonecoin Core</source>
+        <translation>Núcleo de Clonecoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1257,7 +1257,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Zetacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Clonecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir el archivo de registro de depuración en el directorio actual de datos. Esto puede llevar varios segundos para archivos de registro grandes.</translation>
     </message>
     <message>
@@ -1267,8 +1267,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Zetacoin RPC console.</source>
-        <translation>Bienvenido a la consola RPC de Zetacoin</translation>
+        <source>Welcome to the Clonecoin RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Clonecoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1451,8 +1451,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Zetacoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduzca una dirección Zetacoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Clonecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduzca una dirección Clonecoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1516,8 +1516,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Zetacoin address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Zetacoin</translation>
+        <source>Sign the message to prove you own this Clonecoin address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Clonecoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1552,8 +1552,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Zetacoin address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Zetacoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Clonecoin address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Clonecoin indicada</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1568,8 +1568,8 @@ Dirección: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Zetacoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Introduzca una dirección Zetacoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Clonecoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Introduzca una dirección Clonecoin (ej. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1578,8 +1578,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Zetacoin signature</source>
-        <translation>Introduzca una firma Zetacoin</translation>
+        <source>Enter Clonecoin signature</source>
+        <translation>Introduzca una firma Clonecoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1652,8 +1652,8 @@ Dirección: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+25"/>
-        <source>The Zetacoin developers</source>
-        <translation>Los programadores Zetacoin</translation>
+        <source>The Clonecoin developers</source>
+        <translation>Los programadores Clonecoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2190,8 +2190,8 @@ Dirección: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Zetacoin version</source>
-        <translation>Versión de Zetacoin</translation>
+        <source>Clonecoin version</source>
+        <translation>Versión de Clonecoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2200,8 +2200,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or zetacoind</source>
-        <translation>Envíar comando a -server o zetacoind</translation>
+        <source>Send command to -server or clonecoind</source>
+        <translation>Envíar comando a -server o clonecoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2223,14 +2223,14 @@ Dirección: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: zetacoin.conf)</source>
-        <translation>Especificar archivo de configuración (predeterminado: zetacoin.conf)
+        <source>Specify configuration file (default: clonecoin.conf)</source>
+        <translation>Especificar archivo de configuración (predeterminado: clonecoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: zetacoind.pid)</source>
-        <translation>Especificar archivo pid (predeterminado: zetacoin.pid)
+        <source>Specify pid file (default: clonecoind.pid)</source>
+        <translation>Especificar archivo pid (predeterminado: clonecoin.pid)
 </translation>
     </message>
     <message>
@@ -2245,8 +2245,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Escuchar conexiones en &lt;puerto&gt; (predeterminado: 8333 o testnet: 18333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 7921 or testnet: 17921)</source>
+        <translation>Escuchar conexiones en &lt;puerto&gt; (predeterminado: 7921 o testnet: 17921)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2280,8 +2280,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Escuchar conexiones JSON-RPC en &lt;puerto&gt; (predeterminado: 8332 o testnet:18332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 7920 or testnet: 17920)</source>
+        <translation>Escuchar conexiones JSON-RPC en &lt;puerto&gt; (predeterminado: 7920 o testnet:17920)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2311,24 +2311,24 @@ Dirección: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=zetacoinrpc
+rpcuser=clonecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Clonecoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, debe establecer un valor rpcpassword en el archivo de configuración:
 %s
 Se recomienda utilizar la siguiente contraseña aleatoria:
-rpcuser=zetacoinrpc
+rpcuser=clonecoinrpc
 rpcpassword=%s
 (no es necesario recordar esta contraseña)
 El nombre de usuario y la contraseña DEBEN NO ser iguales.
 Si el archivo no existe, créelo con permisos de archivo de solo lectura.
 Se recomienda también establecer alertnotify para recibir notificaciones de problemas.
-Por ejemplo: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo.com
+Por ejemplo: alertnotify=echo %%s | mail -s &quot;Clonecoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2343,8 +2343,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Zetacoin is probably already running.</source>
-        <translation>No se puede bloquear el directorio de datos %s. Probablemente Zetacoin ya se está ejecutando.</translation>
+        <source>Cannot obtain a lock on data directory %s. Clonecoin is probably already running.</source>
+        <translation>No se puede bloquear el directorio de datos %s. Probablemente Clonecoin ya se está ejecutando.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2388,8 +2388,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Zetacoin will not work properly.</source>
-        <translation>Precaución: Por favor, ¡revise que la fecha y hora de su ordenador son correctas! Si su reloj está mal, Zetacoin no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Clonecoin will not work properly.</source>
+        <translation>Precaución: Por favor, ¡revise que la fecha y hora de su ordenador son correctas! Si su reloj está mal, Clonecoin no funcionará correctamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2838,13 +2838,13 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Zetacoin</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Zetacoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Clonecoin</source>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Clonecoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Zetacoin to complete</source>
-        <translation>El monedero ha necesitado ser reescrito. Reinicie Zetacoin para completar el proceso</translation>
+        <source>Wallet needed to be rewritten: restart Clonecoin to complete</source>
+        <translation>El monedero ha necesitado ser reescrito. Reinicie Clonecoin para completar el proceso</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2903,8 +2903,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Zetacoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Zetacoin is probably already running.</source>
-        <translation>No es posible conectar con %s en este sistema. Probablemente Zetacoin ya está ejecutándose.</translation>
+        <source>Unable to bind to %s on this computer. Clonecoin is probably already running.</source>
+        <translation>No es posible conectar con %s en este sistema. Probablemente Clonecoin ya está ejecutándose.</translation>
     </message>
     <message>
         <location line="+64"/>

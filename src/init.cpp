@@ -166,8 +166,8 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n";
     strUsage += "  -?                     " + _("This help message") + "\n";
-    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: zetacoin.conf)") + "\n";
-    strUsage += "  -pid=<file>            " + _("Specify pid file (default: zetacoind.pid)") + "\n";
+    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: clonecoin.conf)") + "\n";
+    strUsage += "  -pid=<file>            " + _("Specify pid file (default: clonecoind.pid)") + "\n";
     strUsage += "  -gen                   " + _("Generate coins (default: 0)") + "\n";
     strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
     strUsage += "  -wallet=<file>         " + _("Specify wallet file (within data directory)") + "\n";
@@ -177,7 +177,7 @@ std::string HelpMessage()
     strUsage += "  -socks=<n>             " + _("Select the version of socks proxy to use (4-5, default: 5)") + "\n";
     strUsage += "  -tor=<ip:port>         " + _("Use proxy to reach tor hidden services (default: same as -proxy)") + "\n";
     strUsage += "  -dns                   " + _("Allow DNS lookups for -addnode, -seednode and -connect") + "\n";
-    strUsage += "  -port=<port>           " + _("Listen for connections on <port> (default: 8333 or testnet: 18333)") + "\n";
+    strUsage += "  -port=<port>           " + _("Listen for connections on <port> (default: 7921 or testnet: 17921)") + "\n";
     strUsage += "  -maxconnections=<n>    " + _("Maintain at most <n> connections to peers (default: 125)") + "\n";
     strUsage += "  -addnode=<ip>          " + _("Add a node to connect to and attempt to keep the connection open") + "\n";
     strUsage += "  -connect=<ip>          " + _("Connect only to the specified node(s)") + "\n";
@@ -220,7 +220,7 @@ std::string HelpMessage()
 #endif
     strUsage += "  -rpcuser=<user>        " + _("Username for JSON-RPC connections") + "\n";
     strUsage += "  -rpcpassword=<pw>      " + _("Password for JSON-RPC connections") + "\n";
-    strUsage += "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 8332 or testnet: 18332)") + "\n";
+    strUsage += "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 7920 or testnet: 17920)") + "\n";
     strUsage += "  -rpcallowip=<ip>       " + _("Allow JSON-RPC connections from specified IP address") + "\n";
     if (!fHaveGUI)
         strUsage += "  -rpcconnect=<ip>       " + _("Send commands to node running on <ip> (default: 127.0.0.1)") + "\n";
@@ -511,12 +511,12 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (file) fclose(file);
     static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
     if (!lock.try_lock())
-        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. Zetacoin is probably already running."), strDataDir.c_str()));
+        return InitError(strprintf(_("Cannot obtain a lock on data directory %s. Clonecoin is probably already running."), strDataDir.c_str()));
 
     if (GetBoolArg("-shrinkdebugfile", !fDebug))
         ShrinkDebugFile();
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    printf("Zetacoin version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
+    printf("Clonecoin version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
     printf("Using OpenSSL version %s\n", SSLeay_version(SSLEAY_VERSION));
     if (!fLogTimestamps)
         printf("Startup time: %s\n", DateTimeStrFormat("%Y-%m-%d %H:%M:%S", GetTime()).c_str());
@@ -526,7 +526,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     std::ostringstream strErrors;
 
     if (fDaemon)
-        fprintf(stdout, "Zetacoin server starting\n");
+        fprintf(stdout, "Clonecoin server starting\n");
 
     if (nScriptCheckThreads) {
         printf("Using %u threads for script verification\n", nScriptCheckThreads);
@@ -860,10 +860,10 @@ bool AppInit2(boost::thread_group& threadGroup)
             InitWarning(msg);
         }
         else if (nLoadWalletRet == DB_TOO_NEW)
-            strErrors << _("Error loading wallet.dat: Wallet requires newer version of Zetacoin") << "\n";
+            strErrors << _("Error loading wallet.dat: Wallet requires newer version of Clonecoin") << "\n";
         else if (nLoadWalletRet == DB_NEED_REWRITE)
         {
-            strErrors << _("Wallet needed to be rewritten: restart Zetacoin to complete") << "\n";
+            strErrors << _("Wallet needed to be rewritten: restart Clonecoin to complete") << "\n";
             printf("%s", strErrors.str().c_str());
             return InitError(strErrors.str());
         }

@@ -23,20 +23,20 @@ class CMainParams : public CChainParams {
 public:
     CMainParams() {
         // The message start string is designed to be unlikely to occur in normal data.
-        pchMessageStart[0] = 0xfa;
-        pchMessageStart[1] = 0xb5;
-        pchMessageStart[2] = 0x03;
-        pchMessageStart[3] = 0xdf;
+        pchMessageStart[0] = 0x1a;
+        pchMessageStart[1] = 0x2b;
+        pchMessageStart[2] = 0x3c;
+        pchMessageStart[3] = 0x4e;
         vAlertPubKey = ParseHex("045337216002ca6a71d63edf062895417610a723d453e722bf4728996c58661cdac3d4dec5cecd449b9086e9602b35cc726a9e0163e1a4d40f521fbdaebb674658");
-        nDefaultPort = 17333;
-        nRPCPort = 8332;
+        nDefaultPort = 7921;
+        nRPCPort = 7920;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
         nSubsidyHalvingInterval = 80640;
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
         // be spent as it did not originally exist in the database.
   
-        const char* pszTimestamp = "3 Aug 2013 - M&G - Mugabe wins Zim election with more than 60% of votes";
+        const char* pszTimestamp = "1-4-2014";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -47,7 +47,7 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1375548986;
+        genesis.nTime    = 1388822738;
         genesis.nBits    = 0x1e0fffff;
         genesis.nNonce   = 2089928209;
         
@@ -64,17 +64,18 @@ public:
         genesis.print();
         
         
-        assert(hashGenesisBlock == uint256("0x000006cab7aa2be2da91015902aa4458dd5fbb8778d175c36d429dc986f2bff4"));
-        assert(genesis.hashMerkleRoot == uint256("0xd0227b8c3e3d07bce9656b3d9e474f050d23458aaead93357dcfdac9ab9b79f9"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
-        vSeeds.push_back(CDNSSeedData("zetacoin.zapto.org", "zetacoin.zapto.org"));
-        vSeeds.push_back(CDNSSeedData("zetacoin.no-ip.org", "zetacoin.no-ip.org"));
-        vSeeds.push_back(CDNSSeedData("zetacoin.strangled.net", "zetacoin.strangled.net"));
-        vSeeds.push_back(CDNSSeedData("zetacoin.ignorelist.com", "zetacoin.ignorelist.com"));
-        vSeeds.push_back(CDNSSeedData("seed1.zeta-coin.org", "seed1.zeta-coin.org"));
-        vSeeds.push_back(CDNSSeedData("seed2.zeta-coin.org", "seed2.zeta-coin.org"));
-        vSeeds.push_back(CDNSSeedData("seed3.zeta-coin.org", "seed3.zeta-coin.org"));
-        vSeeds.push_back(CDNSSeedData("seed4.zeta-coin.org", "seed4.zeta-coin.org"));
+        vSeeds.push_back(CDNSSeedData("192.168.1.112", "192.168.1.112"));
+        //vSeeds.push_back(CDNSSeedData("", ""));
+        //vSeeds.push_back(CDNSSeedData("", ""));
+        //vSeeds.push_back(CDNSSeedData("", ""));
+        //vSeeds.push_back(CDNSSeedData("", ""));
+        //vSeeds.push_back(CDNSSeedData("", ""));
+        //vSeeds.push_back(CDNSSeedData("", ""));
+        //vSeeds.push_back(CDNSSeedData("", ""));
+        //vSeeds.push_back(CDNSSeedData("", ""));
 
         base58Prefixes[PUBKEY_ADDRESS] = 80;
         base58Prefixes[SCRIPT_ADDRESS] = 9;
@@ -115,17 +116,17 @@ class CTestNetParams : public CMainParams {
 public:
     CTestNetParams() {
         // The message start string is designed to be unlikely to occur in normal data.
-        pchMessageStart[0] = 0x05;
-        pchMessageStart[1] = 0xfe;
-        pchMessageStart[2] = 0xa9;
-        pchMessageStart[3] = 0x01;
+        pchMessageStart[0] = 0x0a;
+        pchMessageStart[1] = 0x0b;
+        pchMessageStart[2] = 0x0c;
+        pchMessageStart[3] = 0x0d;
         vAlertPubKey = ParseHex("04deffaef5b9552d1635013708eff25f2fac734cd6720d86fe83f9618572eb095b738efd752128b885c40ca0a37535df5a4b2b2cae5c80cea9bf315fb67ce9fcb2");
-        nDefaultPort = 27333;
-        nRPCPort = 18332;
+        nDefaultPort = 17921;
+        nRPCPort = 17920;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1374901773;
+        genesis.nTime = 1388822738;
         genesis.nNonce = 414708675;
         
         
@@ -144,7 +145,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        // vSeeds.push_back(CDNSSeedData("zetacoin.test", "test.zetacoin.org"));
+        // vSeeds.push_back(CDNSSeedData("clonecoin.test", "test.clonecoin.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = 88;
         base58Prefixes[SCRIPT_ADDRESS] = 188;
