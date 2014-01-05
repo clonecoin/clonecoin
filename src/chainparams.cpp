@@ -35,6 +35,17 @@ public:
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
         // be spent as it did not originally exist in the database.
+        
+        //00000e1b77bd39ddb4b76f58a766ba0f40653977d3d9a20ded261a28b51074df
+		//f592dac23841d61ab7b74c5f13e73e7db5e176fae4aa8b37048af74ce9d46005
+		//1e0fffff
+		//CBlock(hash=00000e1b77bd39ddb4b76f58a766ba0f40653977d3d9a20ded261a28b51074df, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=f592dac23841d61ab7b74c5f13e73e7db5e176fae4aa8b37048af74ce9d46005, nTime=1388822738, nBits=1e0fffff, nNonce=238626, vtx=1)
+  		//CTransaction(hash=f592dac238, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    	//CTxIn(COutPoint(0000000000, 4294967295), coinbase 04ffff001d010408312d342d32303134)
+    	//CTxOut(nValue=1000.00000000, scriptPubKey=04678afdb0fe5548271967f1a67130)
+  		//vMerkleTree: f592dac23841d61ab7b74c5f13e73e7db5e176fae4aa8b37048af74ce9d46005 
+  
+  
   
         const char* pszTimestamp = "1-4-2014";
         CTransaction txNew;
@@ -47,16 +58,18 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1388822738;
+        genesis.nTime    = 1388874174;
         genesis.nBits    = 0x1e0fffff;
-        genesis.nNonce   = 2089928209;
+        genesis.nNonce   = 758274;
         
         //// debug print
         hashGenesisBlock = genesis.GetHash();
+        //comment out
         //while (hashGenesisBlock > bnProofOfWorkLimit.getuint256()){
         //    if (++genesis.nNonce==0) break;
         //    hashGenesisBlock = genesis.GetHash();
         //}
+		//comment out
 
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
@@ -64,10 +77,10 @@ public:
         genesis.print();
         
         
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0x00000887c81496d79ff7d6467a25cc6a52d9ed457e787c8b9a6bca4e5441b012"));
+        assert(genesis.hashMerkleRoot == uint256("0xf592dac23841d61ab7b74c5f13e73e7db5e176fae4aa8b37048af74ce9d46005"));
 
-        vSeeds.push_back(CDNSSeedData("192.168.1.112", "192.168.1.112"));
+        //vSeeds.push_back(CDNSSeedData("192.168.1.112", "192.168.1.112"));
         //vSeeds.push_back(CDNSSeedData("", ""));
         //vSeeds.push_back(CDNSSeedData("", ""));
         //vSeeds.push_back(CDNSSeedData("", ""));
@@ -77,7 +90,7 @@ public:
         //vSeeds.push_back(CDNSSeedData("", ""));
         //vSeeds.push_back(CDNSSeedData("", ""));
 
-        base58Prefixes[PUBKEY_ADDRESS] = 80;
+        base58Prefixes[PUBKEY_ADDRESS] = 50;
         base58Prefixes[SCRIPT_ADDRESS] = 9;
         base58Prefixes[SECRET_KEY] = 224;
 
@@ -141,7 +154,7 @@ public:
         printf("%s\n", genesis.hashMerkleRoot.ToString().c_str());
         genesis.print();
         
-        assert(hashGenesisBlock == uint256("0x000007717e2e2df52a9ff29b0771901c9c12f5cbb4914cdf0c8047b459bb21d8"));
+        //assert(hashGenesisBlock == uint256("0x"));
 
         vFixedSeeds.clear();
         vSeeds.clear();

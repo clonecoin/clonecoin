@@ -1274,7 +1274,7 @@ static const int64 nAveragingInterval = nInterval * 20; // 80 blocks
 static const int64 nAveragingTargetTimespan = nAveragingInterval * nTargetSpacing; // 40 minutes
 
 static const int64 nMaxAdjustDown = 50; // 50% adjustment down
-static const int64 nMaxAdjustUp = 0.5; // 0.5% adjustment up
+static const int64 nMaxAdjustUp = 1; // 1% adjustment up
 
 static const int64 nTargetTimespanAdjDown = nTargetTimespan * (100 + nMaxAdjustDown) / 100;
 

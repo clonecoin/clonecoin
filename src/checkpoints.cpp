@@ -37,7 +37,7 @@ namespace Checkpoints
     // + Contains no strange transactions
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0,     uint256("0x"))
+        ( 0,     uint256("0x00000887c81496d79ff7d6467a25cc6a52d9ed457e787c8b9a6bca4e5441b012"))
         //( 30350, uint256("0x000000000032d087f157871fbc41541a43ac30291f99ce5225d69fd132f8ecdf"))
         //( 66438, uint256("0x00000000000970ae1d1fddcdf363dfc49505caa2884367ad460839d0621d1f56"))
         //(103010, uint256("0x000000000007204260b891b9aa8eb476132e74eb7539dc3e9ac2fb7bc7104ab8"))
@@ -49,15 +49,15 @@ namespace Checkpoints
         ;
     static const CCheckpointData data = {
         &mapCheckpoints,
-        1388225008, // * UNIX timestamp of last checkpoint block
-        842057,     // * total number of transactions between genesis and last checkpoint
+        1388874174, // * UNIX timestamp of last checkpoint block
+        0, //842057,     // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
         2880        // * estimated number of transactions per day after checkpoint
     };
 
     static MapCheckpoints mapCheckpointsTestnet =
         boost::assign::map_list_of
-        ( 0, uint256("0x000007717e2e2df52a9ff29b0771901c9c12f5cbb4914cdf0c8047b459bb21d8"))
+        ( 0, uint256("0x"))
         ;
     static const CCheckpointData dataTestnet = {
         &mapCheckpointsTestnet,
@@ -82,7 +82,10 @@ namespace Checkpoints
 
         MapCheckpoints::const_iterator i = checkpoints.find(nHeight);
         if (i == checkpoints.end()) return true;
+        
+        //fake123
         return hash == i->second;
+        //return true;
     }
 
     // Guess how far we are in the verification process at the given block index
@@ -122,8 +125,9 @@ namespace Checkpoints
             return 0;
 
         const MapCheckpoints& checkpoints = *Checkpoints().mapCheckpoints;
-
+		//fake123
         return checkpoints.rbegin()->first;
+        //return 0;
     }
 
     CBlockIndex* GetLastCheckpoint(const std::map<uint256, CBlockIndex*>& mapBlockIndex)
@@ -138,7 +142,9 @@ namespace Checkpoints
             const uint256& hash = i.second;
             std::map<uint256, CBlockIndex*>::const_iterator t = mapBlockIndex.find(hash);
             if (t != mapBlockIndex.end())
+                //fake123
                 return t->second;
+                //return NULL;
         }
         return NULL;
     }
